@@ -1,0 +1,15 @@
+1- packgage main
+import "fmt"
+func main() {
+ var n1, n2 n3 float64
+fmt.Print("Informe um número: ")
+fmt.Scan(&n1)
+fmt.Print("Informe outro número: ")
+fmt.Scan(&n2)
+fmt.Print(Informe outro número: ")
+fmt.Scan(&n3)
+soma := n1 + n2 + n3
+fmt.Print("O valor da soma entre esses números é: ", soma)
+
+
+
