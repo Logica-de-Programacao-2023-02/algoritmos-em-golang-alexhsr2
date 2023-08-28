@@ -11,5 +11,18 @@ fmt.Scan(&n3)
 soma := n1 + n2 + n3
 fmt.Print("O valor da soma entre esses números é: ", soma)
 
+2- packgage main
+import "fmt"
+func main() {  
+var n1 int
+fmt.Print("Informe um número: ")
+fmt.Scan(&n1)
+dobro := n1 x 2
+triplo := n1 x 3 
+quadruplo := n1 x 4
+fmt.Println("O dobro do número é: ", dobro)
+fmt.Println("O triplo do número é: ", triplo)
+fmt.Println("O quadruplo do número é: ", quadruplo)
+
 
 
