@@ -2,15 +2,15 @@ packgage main
 import "fmt"
 func main() {
   var soma, quantidade, n int
-  x = -1
-  for n != 0 {
-    fmt.Print( Digite um núero: ")
-    fmt.Scan(&n)
+	n = -1
+	for n != 0 {
+		fmt.Print(" Informe um número: ")
+		fmt.Scan(&n)
 
-    soma += x
-   quantidade++
-}
-média := soma/quantidade
-fmt.Println("A média é", media)
+		soma += n
+		quantidade++
+	}
+	média := soma / quantidade
+	fmt.Println("A média é: ", média)
 
 }
