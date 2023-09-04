@@ -17,17 +17,15 @@ func main() {
 var n1 int
 fmt.Print("Informe um número: ")
 fmt.Scan(&n1)
-dobro := n1 x 2
-triplo := n1 x 3 
-quadruplo := n1 x 4
+dobro := n1 * 2
+triplo := n1 * 3
+quadruplo := n1 * 4
 fmt.Println("O dobro do número é: ", dobro)
 fmt.Println("O triplo do número é: ", triplo)
 fmt.Println("O quadruplo do número é: ", quadruplo)
 
 3-package main
-
 import "fmt"
-
 func main() {
 	var altura, peso float64
 	fmt.Print("Informe sua altura: ")
@@ -43,17 +41,18 @@ func main() {
 import "fmt"
 
 func main() {
-	var n1, n2, n3 float64
-	fmt.Print("Informe um número: ")
+	var n1, n2, n3 int
+	fmt.Print("Informe o primeiro número: ")
 	fmt.Scan(&n1)
-	fmt.Print("Informe outro número: ")
+	fmt.Print("Informe o segundo número: ")
 	fmt.Scan(&n2)
-	fmt.Print("Informe outro número: ")
+	fmt.Print("Informe o terceiro número: ")
 	fmt.Scan(&n3)
 
 	media := ((n1 * 2) + (n2 * 3) + (n3 * 5)) / 10
 
 	fmt.Print("A média pondera dos respectivos número é: ", media) 
+
 5- package main
 
 import "fmt"
@@ -67,3 +66,24 @@ func main() {
 
 	fmt.Print("Sua idade em dias é equivalente a +-: ", dias)
 
+6- packgage main
+
+import "fmt"
+
+func main() {
+var salário float64
+fmt.Print("Informe o valor do salário: ")
+fmt.Scan(&salário)
+salárionovo := salário + (salário * 0.15)
+fmt.Print(" O valor do novo salário é: ", salárionovo)
+		
+7- packgage main
+import "fmt"
+func main() {
+var n int
+fmt.Print("Informe o número: ")
+fmt.Scan(&n)
+antecessor := n - 1
+sucessor := n + 1
+fmt.Print(" O valor do sucessor é: ", sucessor)
+fmt.Print(" O valor do antecessor é: ", antecessor)
