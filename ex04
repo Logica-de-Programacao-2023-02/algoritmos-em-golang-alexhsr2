@@ -87,3 +87,25 @@ antecessor := n - 1
 sucessor := n + 1
 fmt.Print(" O valor do sucessor é: ", sucessor)
 fmt.Print(" O valor do antecessor é: ", antecessor)
+
+8- package main
+import "fmt"
+func main() {
+	var diastrabalhados int
+	var diaria float64
+	fmt.Print("Informe o número de dias trabalhados: ")
+	fmt.Scan(&diasTrabalhados)
+	fmt.Print("Informe o valor da diária: ")
+	fmt.Scan(&diaria)
+	salario := float64(diastrabalhados) * diaria
+	fmt.Print("O salário do funcionário é: ", salario)
+9-package main
+import "fmt"
+func main() {
+	var preço float64
+	fmt.Print("Informe o preço: ")
+	fmt.Scan(&preço)
+	desconto := preco * 10%
+	precoComDesconto := preço - desconto
+	fmt.Printf("O valor do preço com desconto de 10% é: ", preço)
+}
