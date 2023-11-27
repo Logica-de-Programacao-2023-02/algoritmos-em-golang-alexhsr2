@@ -109,3 +109,18 @@ func main() {
 	precoComDesconto := preço - desconto
 	fmt.Printf("O valor do preço com desconto de 10% é: ", preço)
 }
+
+10-package main
+
+import "fmt"
+
+func main() {
+
+	var peso float64
+	fmt.Print("informe o peso em quilogramas: ")
+	fmt.Scan(&peso)
+
+	peso2 := peso * 2.2
+
+	fmt.Print("o peso em libras é: ", peso2)
+}
