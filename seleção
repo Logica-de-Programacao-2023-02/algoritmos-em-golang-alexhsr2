@@ -1,0 +1,184 @@
+3- package main
+
+import "fmt"
+
+func main() {
+
+	var n int
+	fmt.Print("digite o número")      
+	fmt.Scan(&n)
+	if n%2 == 0 {
+		fmt.Print("o número é par")
+	} else {
+		fmt.Print("o número é ímpar")
+	}
+}
+
+4-package main
+
+import "fmt"
+
+func main() {
+	var peso, altura float64
+	fmt.Print("informe o peso:")
+	fmt.Scan(&peso)
+	fmt.Print("informe a altura: ")
+	fmt.Scan(&altura)
+
+	IMC := peso / (altura * altura)
+	fmt.Println("IMC", IMC)
+	if IMC < 18.5 {
+		fmt.Print("Abaixo do peso ideal ")
+	} else if IMC >= 18.5 && IMC < 25 {
+		fmt.Print("Peso ideal ")
+	} else if IMC >= 25 && IMC <= 29 {
+		fmt.Print("Peso ideal ")
+	}
+}
+
+5-package main
+
+import "fmt"
+
+func main() {
+
+	var n int
+
+	fmt.Print("Digite um número: ")
+	fmt.Scan(&num)
+
+	if n%3 == 0 && n%5 == 0 {
+		fmt.Print("É um múltiplo de 3 e 5 ao mesmo tempo")
+	} else {
+		fmt.Print("Não é múltiplo de 3 e 5 ao mesmo tempo")
+	}
+}
+
+6-package main
+
+import "fmt"
+
+func main() {
+	var n1, n2 int
+	fmt.Print("Informe o primeiro numero")
+	fmt.Scan(&n1)
+	fmt.Print("Informe o segundo numero")
+	fmt.Scan(&n2)
+
+	if n1 >= 0 && n2 >= 0 {
+		fmt.Println("o resultado é " , n1 * n2)
+
+	} if n1 < 0 || n2 < 0 {
+		fmt.Println("o resultado é ", n1 + n2)
+	}
+
+7-package main
+
+import "fmt"
+
+func main() {
+	var n float64
+	fmt.Print("informe o salario : ")
+	fmt.Scan(&n)
+
+	if n < 1000 {
+
+		salario := (n * (0.10)) + n
+		fmt.Println("o novo salario será: ", salario)
+
+	}  if n >= 1000 {
+		salario := (n * (0.05)) + n
+		fmt.Println("o outro salario será: ", novo)
+  }
+
+  8-package main
+
+import "fmt"
+
+func main() {
+	var n int
+	fmt.Print("Digite um número de 1 a 7: ")
+	fmt.Scan(&n)
+	switch n {
+	case 1:
+
+		fmt.Println("O dia de hoje é Domingo")
+
+	case 2:
+
+		fmt.Println("O dia de hoje é Segunda-feira")
+
+	case 3:
+
+		fmt.Println("O dia de hoje é Terça-feira")
+
+	case 4:
+
+		fmt.Println("O dia de hoje é Quarta-feira")
+
+	case 5:
+
+		fmt.Println("O dia de hoje é Quinta-feira")
+
+	case 6:
+
+		fmt.Println("O dia de hoje é Sexta-feira")
+
+	case 7:
+
+		fmt.Println("O dia de hoje é Domingo")
+
+	}
+
+}
+
+9-package main
+
+import "fmt"
+
+func main() {
+	var n1, n2, n3 float64
+	fmt.Print("Informe o primeiro número: ")
+	fmt.Scan(&n1)
+
+	fmt.Print("Informe o segundo número: ")
+	fmt.Scan(&n2)
+
+	fmt.Print("Informe o terceiro número: ")
+	fmt.Scan(&n3)
+
+	if n1 < n2 && n2 < n3 {
+		fmt.Print("A ordem crescente será: ", n1, n2, n3)
+	} else if n1 < n3 && n3 < n2 {
+		fmt.Print("A ordem crescente será: ", n1, n3, n2)
+	} else if n2 < n1 && n1 < n3 {
+		fmt.Print("A ordem crescente será: ", n2, n1, n3)
+	} else if n2 < n3 && n3 < n1 {
+		fmt.Print("A ordem crescente será: ", n2, n3, n1)
+	} else if n3 < n1 && n1 < n2 {
+		fmt.Print("A ordem crescente será: ", n3, n1, n2)
+	} else if n3 < n2 && n2 < n1 {
+		fmt.Print("A ordem crescente será: ", n3, n2, n1)
+}
+
+}
+
+  10-package main
+
+import "fmt"
+
+func main() {
+
+	var idade int
+	fmt.Print("informe a sua idade: ")
+	fmt.Scan(&idade)
+	if idade <= 9 {
+		fmt.Print("voce é: mirim. ")
+	} else if idade <= 13 {
+		fmt.Print("voce é: infantil.")
+	} else if idade <= 17 {
+		fmt.Print("voce é: juvenil.")
+	} else if idade >= 18 {
+		fmt.Print("voce é: adulto.")
+	}
+}
