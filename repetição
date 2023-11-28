@@ -1,0 +1,120 @@
+1-package main
+
+import "fmt"
+
+func main() {
+	for n := 0; n <= 10; n++ {
+		fmt.Println(n)
+	}
+}
+
+2-package main
+
+import "fmt"
+
+func main() {
+	for x := 0; x <= 20; x++ {
+		fmt.Println(x)
+	}
+}
+
+3-package main
+
+import "fmt"
+
+func main() {
+	for m := 0; m <= 19; m++ {
+		if m%2 != 0 {
+			fmt.Println(m)
+
+      4-package main
+
+import "fmt"
+
+func main() {
+
+	for x := 0; x <= 30; x += 3 {
+		fmt.Println(x) 
+    }
+
+}
+      5-package main
+
+import "fmt"
+
+func main() {
+	for x := 10; x >= 1; x -= 1 {
+		fmt.Println(x)
+	}
+
+}
+
+    6-package main
+
+import "fmt"
+
+func main() {
+	var n int
+	fmt.Print("Informe um número?")
+	fmt.Scan(&n)
+	for x := 1; x <= 10; x++ {
+		fmt.Println(x * n)
+	}
+
+}
+
+      7-package main
+
+import "fmt"
+
+func main() {
+
+	for n := 0; n <= 100; n++ {
+
+		if n%3 == 0 && n%5 == 0 {
+			fmt.Println(`FizzBuzz`)
+		} else if n%3 == 0 {
+			fmt.Println(`Fizz`)
+		} else if n%5 == 0 {
+			fmt.Println(`Buzz`)
+} else {
+			fmt.Println(n)
+		}
+	}
+}
+
+      8-package main
+
+import "fmt"
+
+func main() {
+	var n int
+	fmt.Print("digite o número?")
+	fmt.Scan(&n)
+	for x := n; x > 0; x-- {
+		if n%x == 0 {
+			fmt.Println(x)
+		}
+	}
+
+}
+package main
+
+import "fmt"
+
+func main() {
+	var y, x int
+	x = -1
+	for n != 0 {
+		fmt.Print("Digite um número: ")
+		fmt.Scan(&n)
+
+		if n > y {
+			y = n
+		}
+	}
+	fmt.Println("O maior número é ", y)
+      10-
+
+      
+
